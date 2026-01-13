@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Fedral Government Degree College(FDGC) </title>
+        <style>
+            body{
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                background-color: #f4f6f7;
+            }
+            header{
+                background-color: rgb(52, 214, 57);
+                color: white;
+                text-align: center;
+                padding: 15px;
+            }
+            nav a{
+                margin:10px;
+                text-decoration: none;
+                font-weight: bold;
+                color: rgb(52, 214, 57);;
+            }
+            section{
+                background-color: : rgb(52, 214, 57);;
+                padding: 15px;
+                margin:10px;
+            }
+            footer{
+                background-color: rgb(52, 214, 57);
+                color: white;
+                text-align: center;
+                padding: 10px;
+            }
+            table{
+                width:100%;    
+                border-collapse: collapse;        
+            }
+            table,th,td{
+                border: 1px solid rgb(52, 214, 57);
+            }
+            th{
+                background-color:  rgb(52, 214, 57);
+
+            }
+            th,td{
+                padding: 8px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="images.jpg" FGDC Logo width ="8%">
+            <h1>Federal Degree College(FGDC)</h1>
+            <p>Education,Dicipline & Excellence</p>
+            <hr>
+        </header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#department">Department</a>
+            <a href="#admission">Admission</a>
+            <a href="#contacy">Contact Us</a>
+            <hr>
+        </nav>
+        <section id="home">
+            <h2>Welcome to FDGC</h2>
+            <p>
+                Federal Government Degree College (FDGC) is one of the presstigious institution providing quality education and building future
+            </p>
+        </section>
+        <hr>
+        <section id="about">
+            <h2>About FDGC</h2>
+            <P>
+               FG Degree College Hyderabad was established in 1969 as an educational initiative for people of Hyderabad to offer them quality education and opportunities for the future. For more than 70 years, FG Degree College has been providing quality education to the people of Hyderabad. FG College offers degree programs with intermediate education programs in a number of disciplines ranging from arts to science for the students of both Sindh Board and Federal Board. FG College is one of the few colleges in the Hyderabad Region providing Federal Board Education and is considered the most prestigious college in Hyderabad with the most affordable fee structures.
+
+The Faculty, Administration, and Leadership of FG College is dedicated to providing the best possible educational and extracurricular activities to the students and maintaining the learning environment for its students.
+            </P>
+        </section>
+        <hr>
+        <section id="Department">
+            <h2>Departments</h2>
+            <table>
+                <tr>
+                <th>Department</th>
+                <th>Program</th>
+                </tr>
+                <tr>
+                    <td>Computer Science</td>
+                    <td>BS</td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td>BS</td>
+                </tr>
+                <tr>
+                    <td>Chemistry</td>
+                    <td>BS</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>BS</td>
+                </tr>
+            </table>
+        </section>
+        <hr>
+        <section id="admission">
+            <h2>Admissions</h2>
+            <form>
+            Date: <input type="date" name="date" required><br><br>
+            Student Name: <input type="text" id="person" name="person" required oninput="this.value = this.value.replace(/[^a-zA-Z\s]/g, '')"><br><br>
+            Age: <INPUT type="number" name="age" required ><br><br>
+            Gender:
+            <select name="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br><br>
+            Program:
+            <select name="Program">
+                <option value="BS Computer Science">BS Computer Science</option>
+                <option value="Bs Physics">BS Physics</option>
+                <option value="BS Chemistry">BS Chemistry</option>
+                <option value="BS English">BS English</option>
+            </select><br><br>
+            Institute:
+            <select name="Institute">
+                <option value="FG college Cant HYD">FG College Cant HYD</option>
+                <option value="FG college Cant Peshawar">FG college Cant Peshawar</option>
+                <option value="FG college Cant Rawalpindi">FG college Cant Rawalpindi</option>
+                <option value="other">other</option>
+            </select><br><br>
+            Email: <INPUT type="text" name="email" required ><br><br>
+            Address: <INPUT type="address" name="address" required ><br><br>
+            Contact: <input type="number" name="Contact" step="1"required><br><br>
+            </select>
+            <button type="submit">Apply Now</button>
+        </form>
+        </section>
+        <hr>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p><b>Address: </b>Federal Government Degree College,Pakistan.</p>
+            <p><b>Phone</b>2782261</p>
+            <p><b>Email</b>info@fgdc.edu.pk</p>
+        </section>
+        <footer>
+            <P>& copy;2025 Federal Government Degree College.All Rights Reserved.</P>
+        </footer>
+    </body>
+</html>
